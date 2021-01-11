@@ -1,6 +1,6 @@
 {
-  "name": "button-loading",
-  "version": "0.1.0",
+  "name": "button-loading-test",
+  "version": "0.2.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -38,5 +38,15 @@
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10"
-  }
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gilmarvoge/button-loading"
+  }  
 }
